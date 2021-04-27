@@ -1,12 +1,12 @@
 # Backend for Crown Clothing
 
-# Run
+## Run
 
 ```bash
 npm start
 ```
 
-# Deploy
+## Deploy
 
 ```bash
 git push heroku main
