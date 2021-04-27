@@ -1,0 +1,37 @@
+{
+  "name": "crown-clothing-backend",
+  "version": "1.0.0",
+  "description": "Express Backend for Crown Clothing React Application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.16.x",
+    "npm": "7.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyoptimist/crown-clothing-backend.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "CrazyOptimist <crazyoptimist@mail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazyoptimist/crown-clothing-backend/issues"
+  },
+  "homepage": "https://github.com/crazyoptimist/crown-clothing-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "stripe": "^8.145.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
